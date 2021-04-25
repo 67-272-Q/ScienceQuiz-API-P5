@@ -36,6 +36,7 @@ Custom Serialization
 ---
 
 Now that we have created the barebone API for Science Quiz and documented its Organization endpoints, you will have to create a serializer with which we can customize the Organization JSON objects returned for each request. 
+You will use the [fast_json api](https://github.com/Netflix/fast_jsonapi) for serialization.
 
 A sample from each of these endpoints is provided to you in the `samples` directory under `docs/phase_5`.  These outputs were generated with the context data running the script referenced above.  At the top of each sample is the cURL command used to generate the json output (see note below on pretty printing the output; this is for your convenience and not strictly necessary).  
 
